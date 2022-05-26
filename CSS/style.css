@@ -33,3 +33,26 @@ h1{
     height: 50vh;
     border-radius: 5%;
 }
+.cardContent{
+    width: 88%;
+    height: 90%;
+    text-align: left;
+}
+.disabled{
+    display: none;
+}
+.scores{
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.scores div, .scores .buttonSelect, .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(38,47,56);
+    border: 0;
+    border-radius: 50%;
+}
